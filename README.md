@@ -3,7 +3,7 @@ Simplified installation script for DaVinci Resolve on openSUSE. Currently works 
 
 ## Usage
 
-`git clone https://github.com/psygreg/resolve-suse.git`\
-Download the .zip installer file from BlackmagicDesign's website and copy it to `resolve-suse` folder.\
-`chmod +x resolve-suse.sh`\
-`./resolve-suse.sh`
+- `git clone https://github.com/psygreg/resolve-suse.git`\
+- Download the .zip installer file from BlackmagicDesign's website and copy it to `resolve-suse` folder.\
+- `chmod +x resolve-suse.sh`\
+- `./resolve-suse.sh`
