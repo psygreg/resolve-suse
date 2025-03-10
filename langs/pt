@@ -1,0 +1,6 @@
+start="Checando presença de arquivos necessários."
+incompat="Sistema operacional não suportado."
+cancelled="Parece que você cancelou a instalação. Abortando..."
+versionpick="Que versão deseja instalar?"
+missing="Arquivo .zip do Resolve não encontrado. Esta é a versão correta do script?"
+success="Todas as tarefas foram concluídas."

@@ -1,0 +1,6 @@
+start="Checking for presence of necessary files."
+incompat="Your OS is unsupported."
+cancelled="It seems you cancelled the installation. Aborting..."
+versionpick="Which version do you wish to install?"
+missing="Missing Resolve .zip file. Is it the wrong script version?"
+success="All tasks completed."
