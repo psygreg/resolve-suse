@@ -1,3 +1,4 @@
+#!/bin/sh
 # vars
 file=""
 run=""
@@ -24,7 +25,7 @@ deps () {
 }
 install () {
     unzip $file
-    ./DaVinci_Resolve_Studio_19.1.3_Linux.run
+    ./"$run"
     if [ $? -eq 0 ]; then
         cd /opt/resolve/libs
         sudo mkdir disabled
