@@ -21,7 +21,7 @@ get_lang() {
 deps () {
     sudo zypper addrepo https://download.opensuse.org/repositories/home:frispete:Tumbleweed/openSUSE_Tumbleweed/home:frispete:Tumbleweed.repo
     sudo zypper refresh
-    sudo zypper in --non-interactive libxcb-dri2-0 libxcb-dri2-0-32bit libgthread-2_0-0 libgthread-2_0-0-32bit libapr1 libapr-util1
+    sudo zypper in -q libxcb-dri2-0 libxcb-dri2-0-32bit libgthread-2_0-0 libgthread-2_0-0-32bit libapr1 libapr-util1 libQt5Gui5 libglib-2_0-0 libglib-2_0-0-32bit libgio-2_0-0 libgmodule-2_0-0
 }
 install () {
     unzip $file
