@@ -3,6 +3,7 @@
 file=""
 run=""
 dir="$(dirname "$(realpath "$0")")"
+pkgver="19.1.4"
 # func
 get_lang() {
     local lang="${LANG:0:2}"
@@ -45,11 +46,11 @@ version () {
     read -p "1/2: " choice
     case "$choice" in
         1)
-            file="DaVinci_Resolve_19.1.3_Linux.zip"
-            run="DaVinci_Resolve_19.1.3_Linux.run";;
+            file="DaVinci_Resolve_'$pkgver'_Linux.zip"
+            run="DaVinci_Resolve_'$pkgver'_Linux.run";;
         2) 
-            file="DaVinci_Resolve_Studio_19.1.3_Linux.zip"
-            run="DaVinci_Resolve_Studio_19.1.3_Linux.run";;
+            file="DaVinci_Resolve_Studio_'$pkgver'_Linux.zip"
+            run="DaVinci_Resolve_Studio_'$pkgver'_Linux.run";;
         *)
             echo $cancelled
             sleep 5
