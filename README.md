@@ -9,3 +9,4 @@ Simplified installation script for DaVinci Resolve on openSUSE. Currently works 
 - `./resolve-suse.sh`
 
 ### Do not close the script. It will close itself once all tasks are completed.
+You can safely delete the *"resolve-suse"* folder after completion.
