@@ -1,5 +1,5 @@
 # resolve-suse
-Simplified installation script for DaVinci Resolve on openSUSE. Currently works with Resolve version 19.1.3, both free and Studio.
+Simplified installation script for DaVinci Resolve on openSUSE. Currently works with Resolve version 19.1.4, both free and Studio.
 
 ## Usage
 
